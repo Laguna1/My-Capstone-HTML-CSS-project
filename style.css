@@ -22,8 +22,47 @@ nav {
     background-color: #D35649;
 }
 
+.logo {
+    font-size: 40px;
+    margin-right: 5px;
+}
+
 .nav-menu {
     padding-right: 50px;
+}
+
+.header {
+    background-image: url(assets/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+ .h3 {
+    padding-top: 160px;
+    padding-bottom: 30px;
+ }   
+
+.main-search {
+    background-color: #D35649;
+}
+
+.search-block {
+    padding: 30px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.centr-button {
+    margin-top: 42px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+}
+
+.h5 {
+    color: #D35649;
+    margin: 75px;
 }
 
 .rose {
@@ -38,6 +77,14 @@ nav {
     background-color: #509BD7;
 }
 
+.blue-line-img {
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
 footer {
     background-color: #000000;
 }
@@ -49,16 +96,10 @@ footer {
 .first_line {
     justify-content: space-evenly;
     align-items: center;
-    border: 1px solid white;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
 }
 
 .geo {
     border-radius: 50%;
-    border: 1px solid white;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -76,12 +117,29 @@ footer {
     .nav-menu span {
       display: none;
     }
+
+    .main-search {
+        background-color: #509BD7;
+    }
   
 }
 
 @media only screen and (max-width: 320px) {
     .nav-logo {
       justify-content: center !important;
+    }
+
+    .search-block {
+        padding: 20px;
+    }
+
+    .input-group {
+      flex-direction: column;
+    }
+
+    .main-search {
+        background-color: #D35649;
+        margin-top: 8px;
     }
 
     .first_line {
