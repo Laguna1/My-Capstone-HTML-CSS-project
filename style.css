@@ -144,7 +144,7 @@ footer p {
   -ms-transition: all 1s ease;
   transition: all 1s ease;
 }
-   
+
 .focus:hover {
   border: 30px solid #fff;
   border-radius: 50%;
@@ -243,7 +243,7 @@ footer {
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-   
+
 .morph:hover {
   border-radius: 50%;
   -webkit-transform: rotate(360deg);
@@ -256,7 +256,7 @@ footer {
 /* ====== #list end ======== */
 
 /* ====== #product start ====== */
- 
+
 .case-card {
   margin: 5% 75px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -304,7 +304,7 @@ iframe {
   .blue-line-img {
     width: 350px;
   }
-   
+
   .first-foot-line {
     font-size: xx-small;
   }
@@ -351,7 +351,7 @@ iframe {
   .grid-container {
     grid-template-areas:
       'lev pla'
-      'lev-1 pla-1' 
+      'lev-1 pla-1'
       'tra dat'
       'tra-1 dat-1'
       'tim tim'
@@ -366,7 +366,7 @@ iframe {
 }
 
 /* ====== #list768 end ======== */
-  
+
 @media only screen and (max-width: 320px) {
   .nav-logo {
     justify-content: center !important;
@@ -400,11 +400,11 @@ iframe {
   .four-cards p {
     padding: 0 15px;
   }
-    
+
   .first_line {
     border: none;
   }
-    
+
   .blue-line-img,
   .first-foot-line,
   .copyright {
@@ -437,7 +437,7 @@ iframe {
     grid-template-areas:
       'lev'
       'lev-1'
-      'pla' 
+      'pla'
       'pla-1'
       'tra'
       'tra-1'
@@ -464,7 +464,7 @@ iframe {
     grid-template-areas:
       'items1'
       'items6'
-      'items2' 
+      'items2'
       'items7'
       'items3'
       'items8'
@@ -498,6 +498,3 @@ iframe {
 }
 
   /* ====== #endregionlist320px ======== */   
-
-
-
