@@ -49,8 +49,8 @@ nav {
 }
 
 h1 {
-    padding-top: 160px;
-    padding-bottom: 30px;
+  padding-top: 160px;
+  padding-bottom: 30px;
 }   
 
 .main-search {
@@ -58,63 +58,63 @@ h1 {
 }
 
 .search-block {
-    padding: 30px;
-    border: 1px solid rgba(210,201,196,0.4);
-    border-radius: 20px;
-    background-color: rgba(210,201,196,0.2) !important;
+  padding: 30px;
+  border: 1px solid rgba(210, 201, 196, 0.4);
+  border-radius: 20px;
+  background-color: rgba(210, 201, 196, 0.2) !important;
 }
 
 .centr-button {
-    margin-top: 49px;
-    padding-bottom: 210px;
-    border-radius: 20px;
+  margin-top: 49px;
+  padding-bottom: 210px; 
+  border-radius: 20px;
 }
 
 .h-title,
 .more,
 .map-title {
-    color: #d35649;
-    margin: 75px;
+  color: #d35649;
+  margin: 75px;
 }
 
 .choose,
 .book,
 .take {
-    font-size: 40px;
-    color: #666d7a;
+  font-size: 40px;
+  color: #666d7a;
 }
 
 footer p {
-    font-size: x-small;
+  font-size: x-small;
 }
 
 .four-cards {
-    padding: 0 3%;
-    color: #666d7a;
+  padding: 0 3%;
+  color: #666d7a;
 }
 
 .four-cards p {
-    padding: 0 85px;
+  padding: 0 85px;
 }
 
 .stripes {
-    margin: 0 !important;
-    padding: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .card {
-    padding: 50px 0 0 50px;
-    border: none;
+  padding: 50px 0 0 50px;
+  border: none;
 }
 
 .rose,
 .card-1 {
-    background-color: #e17f66;
+  background-color: #e17f66;
 }
 
 .grey,
 .card-2 {
-    background-color: #98a5a6;
+  background-color: #98a5a6;
 }
 
 .blue,
@@ -123,107 +123,107 @@ footer p {
 }
 
 .blue-line-img {
-    width: 300px;
-    height: 300px;
-    margin: 15px 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 300px;
+  height: 300px;
+  margin: 15px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-round {
-   border-radius: 50%;
-   width: 100%;
-   height: 100%;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 .focus {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-     transition: all 1s ease;
-  }
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
    
 .focus:hover {
-    border: 30px solid #fff;
-    border-radius: 50%;
-  }
+  border: 30px solid #fff;
+  border-radius: 50%;
+}
 
 .cart-text {
-color: white !important;
+  color: white !important;
 }
 
 footer {
-    background-color: #000;
+  background-color: #000;
 }
 
 .third-line {
-    background-color: #1f1f1f;
+  background-color: #1f1f1f;
 }
 
 .first_line {
-    justify-content: space-evenly;
-    align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .geo {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 /* ====== #list start ====== */
 
 .grid-case {
-    background-color: #eeeeee;
+  background-color: #eee;
 }
 
 .item1 { 
-    grid-area: lev;
+  grid-area: lev;
 }
 
 .item2 { 
-    grid-area: pla; 
+  grid-area: pla; 
 }
 
 .item3 { 
-    grid-area: tra; 
+  grid-area: tra; 
 }
 
 .item4 { 
-    grid-area: dat; 
+  grid-area: dat; 
 }
 
 .item5 { 
-    grid-area: tim; 
+  grid-area: tim; 
 }
 
 .item6 { 
-    grid-area: but-s;
-    padding-top: 31px;
+  grid-area: but-s;
+  padding-top: 31px;
 }
 .item7 { 
-    grid-area: but-c;
-    padding-top: 31px; 
+  grid-area: but-c;
+  padding-top: 31px; 
 }
 
 .item8 { 
-    grid-area: lev-1; 
+  grid-area: lev-1; 
 }
 
 .item9 { 
-    grid-area: pla-1; 
+  grid-area: pla-1; 
 }
 
 .item10 { 
-    grid-area: tra-1; 
+  grid-area: tra-1; 
 }
 
 .item11 { 
-    grid-area: dat-1; 
+  grid-area: dat-1; 
 }
 
 .item12 { 
-    grid-area: tim-1; 
+  grid-area: tim-1; 
 }
 
 .grid-container {
@@ -237,20 +237,20 @@ footer {
 }
 
 .morph {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
    
-  .morph:hover {
-    border-radius: 50%;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 /* ====== #list end ======== */
@@ -259,15 +259,16 @@ footer {
  
 .case-card {
   margin: 5% 75px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .case-card h1 {
-  color:#d35649;
+  color: #d35649;
 }
 
 .grid-container-2 {
   display: grid;
+  grid-gap: 7px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(5, 50px);
   grid-template-areas:
@@ -276,7 +277,6 @@ footer {
       'items3 items8'
       'items4 items9'
       'items5 items10';  
-  grid-gap: 7px;
 }
 
 .prod {
@@ -293,25 +293,25 @@ iframe {
 }  
 
 @media only screen and (max-width: 1024px) {
-    h1 {
-        font-size: 1.8em !important;
-    }
+  h1 {
+    font-size: 1.8em !important;
+  }
 
-    .four-cards p {
-        padding: 0 69px;
-    }
+  .four-cards p {
+    padding: 0 69px;
+  }
 
-    .blue-line-img {
-        width: 350px;
-    }
+  .blue-line-img {
+    width: 350px;
+  }
    
-    .first-foot-line {
-      font-size: xx-small;
-    }
+  .first-foot-line {
+    font-size: xx-small;
+  }
 
-    .undergrid a {
-        font-size: xx-small;
-    }
+  .undergrid a {
+    font-size: xx-small;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -348,16 +348,16 @@ iframe {
         margin-bottom: 70px;
     }
 
-    .grid-container {
-        grid-template-areas:
-          'lev pla'
-          'lev-1 pla-1' 
-          'tra dat'
-          'tra-1 dat-1'
-          'tim tim'
-          'tim-1 tim-1'
-          'but-s but-c';
-    }
+  .grid-container {
+    grid-template-areas:
+      'lev pla'
+      'lev-1 pla-1' 
+      'tra dat'
+      'tra-1 dat-1'
+      'tim tim'
+      'tim-1 tim-1'
+      'but-s but-c';
+  }
 
     .item10,
     .item12 {
@@ -496,6 +496,7 @@ iframe {
         padding-top: 17px;
     }
 }
+
   /* ====== #endregionlist320px ======== */   
 
 
