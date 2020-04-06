@@ -21,9 +21,9 @@ The HTML was validated with W3C validation checker and the CSS styling was verif
 
 
 
- ![1440px-size]()
- ![1024px-size]()
- ![768px-size]()
+ ![1440px-size](https://rawcdn.githack.com/Laguna1/My-Capstone-HTML-CSS-project/788a3aaa018046f8e8e04db5a949f9e0165d9f1f/assets/screencapture-1440px-size.png)
+ ![1024px-size](https://rawcdn.githack.com/Laguna1/My-Capstone-HTML-CSS-project/788a3aaa018046f8e8e04db5a949f9e0165d9f1f/assets/screencapture-1024-size.png)
+ ![768px-size](https://rawcdn.githack.com/Laguna1/My-Capstone-HTML-CSS-project/788a3aaa018046f8e8e04db5a949f9e0165d9f1f/assets/screencapture-tablet-size.png)
 
 
 ### Live Demo 
