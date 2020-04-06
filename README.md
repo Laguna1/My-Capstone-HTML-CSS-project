@@ -19,13 +19,15 @@ The HTML was validated with W3C validation checker and the CSS styling was verif
 * BOOTSTRAP 4
 ***
 
-Live Demo Link
 
- ![Example]()
+
+ ![1440px-size]()
+ ![1024px-size]()
+ ![768px-size]()
 
 
 ### Live Demo 
- []() 
+ [Demo-link]() 
 ***
 
 ### Author
