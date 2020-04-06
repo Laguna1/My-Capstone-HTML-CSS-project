@@ -20,14 +20,18 @@ The HTML was validated with W3C validation checker and the CSS styling was verif
 ***
 
 
-
+### Decktop - version
  ![1440px-size](https://rawcdn.githack.com/Laguna1/My-Capstone-HTML-CSS-project/788a3aaa018046f8e8e04db5a949f9e0165d9f1f/assets/screencapture-1440px-size.png)
+
+### Laptop - version
  ![1024px-size](https://rawcdn.githack.com/Laguna1/My-Capstone-HTML-CSS-project/788a3aaa018046f8e8e04db5a949f9e0165d9f1f/assets/screencapture-1024-size.png)
+
+ ### Tablet - version
  ![768px-size](https://rawcdn.githack.com/Laguna1/My-Capstone-HTML-CSS-project/788a3aaa018046f8e8e04db5a949f9e0165d9f1f/assets/screencapture-tablet-size.png)
 
 
 ### Live Demo 
- [Demo-link]() 
+ [Demo-link](https://rawcdn.githack.com/Laguna1/My-Capstone-HTML-CSS-project/fc4eb682ef89544369c5f3cf13e35e7df27ff464/index.html) 
 ***
 
 ### Author
