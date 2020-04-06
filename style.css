@@ -66,7 +66,7 @@ h1 {
 
 .centr-button {
   margin-top: 49px;
-  padding-bottom: 210px; 
+  padding-bottom: 210px;
   border-radius: 20px;
 }
 
@@ -201,6 +201,7 @@ footer {
   grid-area: but-s;
   padding-top: 31px;
 }
+
 .item7 { 
   grid-area: but-c;
   padding-top: 31px; 
@@ -497,4 +498,4 @@ iframe {
   }
 }
 
-  /* ====== #endregionlist320px ======== */
+/* ====== #endregionlist320px ======== */
