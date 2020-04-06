@@ -2,7 +2,12 @@
 This is a solo project at the end of the Microverse Main Technical Curriculum HTML/CSS module.
 
 The website contains 3 pages, the main page where I present the website of the driving school, a page where you can select services, and a page where the user receives confirmation of the selected services and can place an order.
-All project pages are responsive (breakpoints of 1440, 1024, 768 and 320 pixels), and the design is inspired by Mathew Njuguna at Behance.
+Each of three pages have versions for 3 different screen sizes: 
+
+- mobile: up to 768px
+- tablet: up to 1024px
+- desktop: from 1024px
+and the design is inspired by Mathew Njuguna at Behance, many thanks to him for that.
 
 The HTML was validated with W3C validation checker and the CSS styling was verified locally using a CSS stylelinter. All errors were corrected.
 
@@ -17,10 +22,7 @@ The HTML was validated with W3C validation checker and the CSS styling was verif
 Live Demo Link
 
  ![Example]()
- 
- 
-### Sample Page
-https://www.behance.net/gallery/25563385/PatashuleKE?
+
 
 ### Live Demo 
  []() 
