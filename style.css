@@ -10,7 +10,7 @@ body {
 }
 
 * {
-   box-sizing: border-box; 
+  box-sizing: border-box; 
 }
 
 a {
@@ -52,7 +52,7 @@ nav {
 h1 {
     padding-top: 160px;
     padding-bottom: 30px;
- }   
+}   
 
 .main-search {
     background-color: #D35649;
@@ -364,10 +364,10 @@ footer p {
     .item12 {
         height: 48px;
     }
-
+}
 /* ====== #list768 end ======== */
   
-}
+
 
 @media only screen and (max-width: 320px) {
     .nav-logo {
@@ -497,8 +497,8 @@ footer p {
         margin: 30px 0;
         padding-top: 17px;
     }
-
+}
   /* ====== #endregionlist320px ======== */   
 
- }
+
 
