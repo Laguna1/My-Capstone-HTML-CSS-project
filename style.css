@@ -1,10 +1,10 @@
 body {
   margin: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #333435;
+  color: #666D7A;
   text-align: left;
   background-color: #fff;
 }
@@ -17,6 +17,17 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.mp-o {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.pad-320 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 
 nav {
     background-color: #D35649;
@@ -32,13 +43,13 @@ nav {
 }
 
 .header {
-    background-image: url(assets/bg-header.jpg);
+    background-image: url(assets/tunnel-4276025_960_720.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    }
+    background-position: top right;
+}
 
- .h3 {
+h1 {
     padding-top: 160px;
     padding-bottom: 30px;
  }   
@@ -49,44 +60,103 @@ nav {
 
 .search-block {
     padding: 30px;
-    border: 2px solid grey;
+    border: 1px solid rgba(210,201,196,0.4) ;
     border-radius: 20px;
-    background-color: transparent;
+    background-color: rgba(210,201,196,0.2) !important;
 }
 
 .centr-button {
-    margin-top: 42px;
-    padding-bottom: 100px;
+    margin-top: 49px;
+    padding-bottom: 210px;
     border-radius: 20px;
 }
 
-.h5 {
+.h-title,
+.more,
+.map-title {
     color: #D35649;
     margin: 75px;
 }
 
-.rose {
+.choose,
+.book,
+.take {
+    font-size: 40px;
+    color: #666D7A;
+}
+
+.four-cards {
+    padding: 0 3%;
+    color: #666D7A;
+}
+
+.four-cards p {
+    padding: 0 85px;
+}
+
+.stripes {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.card {
+    padding: 50px 0 0 50px;
+    border: none;
+}
+
+.rose,
+.card-1 {
     background-color: #E17F66;
 }
 
-.grey {
+.grey,
+.card-2 {
     background-color: #98A5A6;
 }
 
-.blue {
+.blue,
+.card-3 {
     background-color: #509BD7;
 }
 
 .blue-line-img {
-    background-color: yellow;
     width: 300px;
     height: 300px;
-    border: 1px solid black;
+    margin: 15px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-round {
+   border-radius: 50%;
+   width: 100%;
+   height: 100%;
+}
+
+.focus {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+  }
+   
+  .focus:hover {
+    border: 30px solid #fff;;
     border-radius: 50%;
+  }
+
+.cart-text {
+color: white !important;
 }
 
 footer {
     background-color: #000000;
+}
+
+footer p {
+    font-size: x-small;
 }
 
 .third-line {
@@ -102,31 +172,218 @@ footer {
     border-radius: 50%;
 }
 
+/* ====== #list start ====== */
+
+.grid-case {
+    background-color: #EEEEEE;
+}
+
+.item1 { 
+    grid-area: lev;
+}
+
+.item2 { 
+    grid-area: pla; 
+}
+
+.item3 { 
+    grid-area: tra; 
+}
+
+.item4 { 
+    grid-area: dat; 
+}
+
+.item5 { 
+    grid-area: tim; 
+}
+
+.item6 { 
+    grid-area: but-s;
+    padding-top: 31px;
+}
+.item7 { 
+    grid-area: but-c;
+    padding-top: 31px; 
+}
+
+.item8 { 
+    grid-area: lev-1; 
+}
+
+.item9 { 
+    grid-area: pla-1; 
+}
+
+.item10 { 
+    grid-area: tra-1; 
+}
+
+.item11 { 
+    grid-area: dat-1; 
+}
+
+.item12 { 
+    grid-area: tim-1; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 30px 46px;
+  grid-template-areas:
+    'lev pla tra dat tim but-s but-c'
+    'lev-1 pla-1 tra-1 dat-1 tim-1 but-s but-c';
+  grid-gap: 1px;
+  padding: 10px;
+}
+
+.morph {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+   
+  .morph:hover {
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+
+/* ====== #list end ======== */
+
+/* ====== #product start ====== */
+ 
+  .case-card {
+      margin: 5% 75px;
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+  .case-card h1 {
+      color:#D35649;
+  }
+
+  .grid-container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 50px);
+    grid-template-areas:
+      'items1 items6'
+      'items2 items7'
+      'items3 items8'
+      'items4 items9'
+      'items5 items10';
+    grid-gap: 7px;
+  }
+
+  .prod {
+      border: 1px solid grey;
+      padding-top: 7px;
+  }
+
+  .more-info {
+      background-color: #E9ECEF;
+  }
+
+  iframe {
+      border: 0;
+  }
+
 @media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 1.8em !important;
+    }
+
+    .four-cards p {
+        padding: 0 69px;
+    }
+
+    .blue-line-img {
+        width: 350px;
+    }
+   
     .first-foot-line {
       font-size: xx-small;
+    }
+
+    .undergrid a {
+        font-size: xx-small;
     }
 }
 
 @media only screen and (max-width: 768px) {
    .nav-menu {
       justify-content: space-between !important;
-      padding: 20px;
+      padding: 0;
     }
 
-    .nav-menu span {
+    .nav-menu span,
+    .second-line {
       display: none;
     }
 
     .main-search {
         background-color: #509BD7;
     }
+
+    .four-cards p {
+        padding: 0 40px;
+    }
+
+    .blue-line-img {
+        width: 455px;
+        margin: 15px 4px;
+    }
+
+    /* ====== #list768 start ====== */
+
+    .grid-case {
+        margin-top: 0 !important;
+    }
+
+    .grid-case h2 {
+        margin-bottom: 70px;
+    }
+
+    .grid-container {
+        grid-template-areas:
+          'lev pla'
+          'lev-1 pla-1' 
+          'tra dat'
+          'tra-1 dat-1'
+          'tim tim'
+          'tim-1 tim-1'
+          'but-s but-c';
+    }
+
+    .item10,
+    .item12 {
+        height: 48px;
+    }
+
+/* ====== #list768 end ======== */
   
 }
 
 @media only screen and (max-width: 320px) {
     .nav-logo {
       justify-content: center !important;
+    }
+
+    .nav-logo :first-child {
+        padding-left: 5px !important;
+    }
+
+    .nav-logo h2 {
+        padding-right: 9px;
+    }
+
+    .nav-menu {
+        padding: 8px 3px 9px 48px;
     }
 
     .search-block {
@@ -142,13 +399,22 @@ footer {
         margin-top: 8px;
     }
 
+    .four-cards p {
+        padding: 0 15px;
+    }
+    
     .first_line {
         border: none;
     }
     
+    .blue-line-img,
     .first-foot-line,
     .copyright {
       display: none;
+    }
+
+    .card {
+        padding: 0;
     }
 
     .left-bottom {
@@ -162,4 +428,77 @@ footer {
     .foot-bottom {
         justify-content: center !important;
     }
+
+       /* ====== #startregionlist320px ====== */
+
+    .wrapper {
+        padding: 10px !important;
+    }
+
+    .grid-container {
+        grid-template-areas:
+          'lev'
+          'lev-1'
+          'pla' 
+          'pla-1'
+          'tra'
+          'tra-1'
+          'dat'
+          'dat-1'
+          'tim'
+          'tim-1'
+          'but-s'
+          'but-c';
+    }
+
+    .item9,
+    .item11 {
+        height: 48px;
+    }
+
+    .prod-nav-title {
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+
+    .grid-container-2 {
+        grid-template-columns: auto;
+        grid-template-areas:
+          'items1'
+          'items6'
+          'items2' 
+          'items7'
+          'items3'
+          'items8'
+          'items4'
+          'items9'
+          'items5'
+          'items10';
+    }
+
+    .undergrid a {
+        display: none;
+    }
+
+    .case-card {
+        margin: 0;
+        padding: 20px !important;
+    }
+
+    .order-button {
+        margin-bottom: 20px;
+        margin-left: 30%;
+    }
+
+    .map-title {
+        text-align: left;
+        font-size: x-large;
+        font-weight: bold;
+        margin: 30px 0;
+        padding-top: 17px;
+    }
+
+  /* ====== #endregionlist320px ======== */   
+
  }
+

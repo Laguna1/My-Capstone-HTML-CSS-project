@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid mp-o">
     <nav>
       <div class="row">
         <div class="col-12 col-md-6 col-lg-4">
@@ -24,9 +24,9 @@
             <div class="pl-3 pr-0">
               <i class="fas fa-tachometer-alt logo"></i>
             </div>
-            <div class="h2 my-3">
-              Driving Scool
-            </div>
+            <h2 class="h2 my-3">
+              Driving School
+            </h2>
           </div>
         </div>
         <div class="nav-menu col-12 col-md-6 col-lg-8 d-flex justify-content-end align-items-center pr-5">
@@ -52,7 +52,7 @@
                   d="M13 14s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002.002zM3.022 13h9.956a.274.274 0 00.014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 00.022.004zm9.974.056v-.002.002zM8 7a2 2 0 100-4 2 2 0 000 4zm3-2a3 3 0 11-6 0 3 3 0 016 0z"
                   clip-rule="evenodd" />
               </svg>
-              <span class="">INSTRUCTORS</span>
+              <span class="">MENTORS</span>
             </a>
           </div>
           <div class="pl-3">
@@ -77,78 +77,124 @@
     </nav>
 
     <div class="header">
- <div class="h3 text-center text-white text-uppercase">
-   DRIVING SCHOOL...We have been working for you.
- </div>
+ <h1 class="h2 text-center text-white text-uppercase font-weight-bold">
+   DRIVING SCHOOL...We are working for you.
+ </h1>
  <div class="bg-transparent">
  <div class="row d-flex">
-          <div class="col-1 col-md-2 empty">
+          <div class="col-1 col-md-1 empty">
           </div>
-          <div class="col-10 col-md-8 bg-light search-block">
-            <div class="">SEARCH BY KEY WORDS:</div>
-            <div class="input-group">
+          <div class="col-10 col-md-10 search-block">
+            <div class="font-weight-bold h6 pl-1">SEARCH BY KEY WORDS:</div>
+            <div class="input-group pb-2">
               <input type="text" class="form-control" aria-label="Search"
-                aria-describedby="button-addon2">
-              <button class="btn main-search text-white" type="button" id="button-addon2">SEARCH</button>
+                aria-describedby="button-addon1">
+                <a href="list.html">
+              <span class="btn main-search text-white" id="button-addon1">
+                <span class="text-dark h6">SEARCH</span>
+                 </span>
+                </a>
+            
             </div>
            </div>
-          <div class="col-1 col-md-2 empty">
+          <div class="col-1 col-md-1 empty">
           </div>
         </div>
       </div>
       <div class="centr-button text-center">
-        <button class="btn bg-light"><a href="list.html" class="text-dark">HOW IT WORKS</a></button>
+        <a href="list.html">
+        <span class="btn bg-light">
+          <span class="text-dark h6">HOW IT WORKS</span>
+        </span>
+        </a>
       </div>
     </div>
  </div>
-
-  <main>
+ <main>
     <section>
-      <div class="container-fluid">
-        <h2 class="text-center font-weight-bold h5">DRIVING SCHOOL WORKS IN FOUR SIMPLE STEPS.</h2>
+      <div class="container">
+        <h2 class="text-center font-weight-bold h-title h5">DRIVING SCHOOL WORKS IN FOUR SIMPLE STEPS.</h2>
 
-        <div class="row">
+        <div class="row four-cards mb-5">
 
-          <div class="col-12 col-md-6 text-center">
+          <div class="col-12 col-md-6 text-center four-cards-card pb-5">
             <div class="order">
-              <i>S</i>
-              <h6>1 - Search:</h6>
-           <p>Write the name of the program in the "Search" field</p> 
+              <svg class="bi bi-newspaper" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M0 2A1.5 1.5 0 011.5.5h11A1.5 1.5 0 0114 2v12a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 010 14V2zm1.5-.5A.5.5 0 001 2v12a.5.5 0 00.5.5h11a.5.5 0 00.5-.5V2a.5.5 0 00-.5-.5h-11z" clip-rule="evenodd"/>
+                  <path fill-rule="evenodd" d="M15.5 3a.5.5 0 01.5.5V14a1.5 1.5 0 01-1.5 1.5h-3v-1h3a.5.5 0 00.5-.5V3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+                  <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
+                </svg>
+              <h6 class="mt-2 py-3 text-uppercase">1 - Search:</h6>
+           <p>Write the name of the program in the "Search" field and press "Search"</p> 
             </div>
           </div>
-          <div class="col-12 col-md-6 text-center">2-Choose
-            Choose an instructor, type of car, training time, place where classes will be held.
+          <div class="col-12 col-md-6 text-center pb-5">
+            <i class="far fa-map choose"></i>
+            <h6 class="mt-2 py-3 text-uppercase">2 - Choose:</h6>
+            <p>Choose an instructor, type of car, training time, place where classes will be held.</p>
           </div>
-          <div class="col-12 col-md-6 text-center">3-Book
-            Specify the tariff plan and payment method.
+          <div class="col-12 col-md-6 text-center pb-5">
+            <i class="fas fa-file-invoice book"></i>
+            <h6 class="mt-2 py-3 text-uppercase">3 - Book:</h6>
+            <p>Specify the tariff plan and payment method.</p>
           </div>
-          <div class="col-12 col-md-6 text-center">4-Take advantage
-            We are waiting for you in class.
+          <div class="col-12 col-md-6 text-center pb-5">
+            <i class="fas fa-trophy take"></i>
+            <h6 class="mt-2 py-3 text-uppercase">4 - Take advantage:</h6>
+
+            <p>We are waiting for you in class.</p>
           </div>
 
         </div>
       </div>
-
-     <div class="rose col-12 d-flex justify-content-between">
-        <div>1</div>
-        <div class="blue-line-img">img</div>
-      </div>
-
-      <div class="grey col-12 d-flex justify-content-between">
-        <div>1</div>
-        <div class="blue-line-img">img</div>
-      </div>
-      <div class="blue col-12 d-flex justify-content-space-around align-items-center">
-        <div>1</div>
-        <div class="blue-line-img">img</div>
-      </div>
-
     </section>
-
-
-  </main>
-
-  <footer class="d-flex justify-content-center text-align-center text-white">
+    <section class="stripes">
+      <div class="container-fluid mp-0">
+     <div class="rose col-12 d-flex justify-content-between text-center text-sm-center text-md-left text-lg-left">
+        <div>
+          <div class="card card-1">
+          <div class="card-body">
+            <h5 class="card-title text-white">Special title treatment</h5>
+            <p class="card-text text-white py-2">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-light">Register now</a>
+          </div>
+        </div>
+      </div>
+        <div class="blue-line-img">
+          <img src="assets/avto.jpg" alt="car" class="img-round focus">
+        </div>
+      </div>
+    <div class="grey col-12 d-flex justify-content-between text-center text-sm-center text-md-left text-lg-left">
+        <div>
+          <div class="card card-2">
+           <div class="card-body">
+              <h5 class="card-title text-white">Special title treatment</h5>
+              <p class="card-text text-white py-2">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-light">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="blue-line-img">
+          <img src="assets/index1.jpg" alt="avto" class="img-round focus">
+        </div>
+      </div>
+      <div class="blue col-12 d-flex justify-content-between text-center text-sm-center text-md-left text-lg-left">
+        <div>
+          <div class="card card-3">
+           <div class="card-body">
+              <h5 class="card-title text-white">Special title treatment</h5>
+              <p class="card-text text-white py-2">With supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="blue-line-img">
+          <img src="assets/avto.jpg" alt="car" class="img-round focus">
+        </div>
+      </div>
+    </div>
+    </section>
+ </main>
+ <footer class="d-flex justify-content-center text-align-center text-white">
     <div class="container-fluid">
       <div class="row">
         <div class="first_line col-12 d-flex my-5">
@@ -159,7 +205,7 @@
             <div class="first-foot-line">SEARCH</div>
           </a>
           <a href="#">
-            <div class="first-foot-line">ABOUT US</div>
+            <div class="first-foot-line"><span class="pr-1">ABOUT</span><span>US</span></div>
           </a>
           <a href="#">
             <div class="first-foot-line">ADVERTISE</div>
@@ -186,37 +232,31 @@
           </a>
         </div>
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid  mp-o">
         <div class="row second-line">
-
-          <div class="col-12 col-md-4 left-bottom text-center">
-            <h5 class="text-center">SUBSCRIBE</h5>
+ <div class="col-12 col-md-4 left-bottom text-center">
+            <h6 class="text-center">SUBSCRIBE</h6>
             <form class="d-flex">
               <input type="text" class="form-control" placeholder="Your Email">
               <span class="input-group-text">SUBSCRIBE</span>
             </form>
             <p>You can update your <a href="product.html" rel="nofollow"> email preferences at any time</a></p>
-
-
-          </div>
-
-          <div class="col-12 col-md-4 center-bottom text-center">
-            <h5 class="text-center">ABOUT</h5>
+</div>
+  <div class="col-12 col-md-4 center-bottom text-center">
+            <h6 class="text-center">ABOUT</h6>
             <p>Ask your question</p>
-            ourmail@gmail.com
+            <a href="#" class="more">ourmail@gmail.com</a>
           </div>
           <div class="col-12 col-md-4 right-bottom text-center">
-            <h5 class="">CONTACT</h5>
+            <h6 class="">CONTACT</h6>
             <p>+38 066 825 59 79
               st. Yaroslav the Wise, 142
-              Mon-Fri: 11-19 / Sat-Sun: 10-20<br><a href="">More...</a></p>
+              Mon-Fri: 11-19 / Sat-Sun: 10-20<br><a href="#" class="more">More...</a></p>
 
           </div>
         </div>
 
-
-
-        <div class="row third-line d-flex justify-content-space-evenly p-3">
+ <div class="row third-line d-flex justify-content-space-evenly p-3">
           <div class="col-12 col-md-5 foot-bottom d-flex">
             <div class="social">
               <a href="#"><i class="fab fa-facebook-square mx-1"></i></a>
@@ -226,7 +266,7 @@
               <a href="#"><i class="fab fa-linkedin mx-1"></i></a>
             </div>
           </div>
-          <div class="col-12 col-md-7 copyright text-right pl-4">© 2020 Copyright
+          <div class="col-12 col-md-7 copyright text-right pl-4">© 2020 Laguna1
           </div>
         </div>
       </div>
