@@ -178,12 +178,12 @@ footer {
 }
 
 .form-control {
-  border: 1px solid rgb(31,34,37);
+  border: 1px solid rgb(31, 34, 37);
 }
 
 .input-group-text {
   background-color: #262626;
-  border: 1px solid rgb(31,34,37);
+  border: 1px solid rgb(31, 34, 37);
 }
 
 .third-line {
@@ -227,12 +227,12 @@ footer {
 
 .item6 { 
   grid-area: but-s;
-  padding-top: 31px;
+  padding-top: 35px;
 }
 
 .item7 { 
   grid-area: but-c;
-  padding-top: 31px; 
+  padding-top: 35px; 
 }
 
 .item8 { 
@@ -248,7 +248,8 @@ footer {
 }
 
 .item11 { 
-  grid-area: dat-1; 
+  grid-area: dat-1;
+  border: 1px solid grey; 
 }
 
 .item12 { 
@@ -261,8 +262,20 @@ footer {
   grid-template-areas:
     'lev pla tra dat tim but-s but-c'
     'lev-1 pla-1 tra-1 dat-1 tim-1 but-s but-c';
-  grid-gap: 1px;
+  grid-gap: 5px;
   padding: 10px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.input-group-text-blue {
+  top: 2px;
+  right: -5px;
+  border: aliceblue;
 }
 
 .morph {
@@ -408,8 +421,7 @@ iframe {
   .map-title {
     padding-top: 46px;
   }
-
-}
+ }
 
 /* ====== #list1024px end ======== */
 
