@@ -147,8 +147,8 @@ footer p {
 
 .img-round {
   border-radius: 50%;
-  width: 100%;
-  height: 100%;
+    width: 303px;
+    height: 303px;
 }
 
 .focus {
@@ -351,6 +351,10 @@ iframe {
   .blue-line-img {
     width: 455px;
     margin: 15px 4px;
+  }
+
+  .img-round {
+    width: 303px;
   }
 
   /* ====== #list1024px start ====== */
