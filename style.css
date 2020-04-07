@@ -18,6 +18,10 @@ a {
   color: white;
 }
 
+a :visited {
+  text-decoration: none;
+}
+
 .mp-o {
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -39,6 +43,7 @@ nav {
 
 .nav-menu {
   padding-right: 50px;
+  white-space: nowrap;
 }
 
 .header {
@@ -302,7 +307,7 @@ iframe {
   border: 0;
 }  
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1440px) {
   h1 {
     font-size: 1.8em !important;
   }
@@ -324,7 +329,7 @@ iframe {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .nav-menu {
     justify-content: space-between !important;
     padding: 0;
@@ -348,7 +353,7 @@ iframe {
     margin: 15px 4px;
   }
 
-  /* ====== #list768 start ====== */
+  /* ====== #list1024px start ====== */
 
   .grid-case {
     margin-top: 0 !important;
@@ -375,9 +380,9 @@ iframe {
   }
 }
 
-/* ====== #list768 end ======== */
+/* ====== #list1024px end ======== */
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 768px) {
   .nav-logo {
     justify-content: center !important;
   }
@@ -392,6 +397,11 @@ iframe {
 
   .nav-menu {
     padding: 8px 3px 9px 48px;
+  }
+
+  h1 {
+    padding-left: 21px;
+    white-space: pre-line;
   }
 
   .search-block {
