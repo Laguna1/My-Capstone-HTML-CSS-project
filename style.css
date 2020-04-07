@@ -51,7 +51,12 @@ nav {
 h1 {
   padding-top: 160px;
   padding-bottom: 30px;
-}   
+}  
+
+.input-group {
+  width: 95%;
+  padding-left: 4%;
+}
 
 .main-search {
   background-color: #d35649;
@@ -62,6 +67,10 @@ h1 {
   border: 1px solid rgba(210, 201, 196, 0.4);
   border-radius: 20px;
   background-color: rgba(210, 201, 196, 0.2) !important;
+}
+
+.search-block :first-child {
+  padding-left: 5%;
 }
 
 .centr-button {
