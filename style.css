@@ -19,7 +19,7 @@ a {
 }
 
 a :visited {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .mp-o {
@@ -91,6 +91,10 @@ h1 {
   margin: 75px;
 }
 
+.more {
+  font-size: x-small;
+}
+
 .choose,
 .book,
 .take {
@@ -108,7 +112,8 @@ footer p {
 }
 
 .four-cards p {
-  padding: 0 85px;
+  padding: 0 69px 25px;
+  font-size: 15px;
 }
 
 .stripes {
@@ -147,8 +152,8 @@ footer p {
 
 .img-round {
   border-radius: 50%;
-    width: 303px;
-    height: 303px;
+  width: 303px;
+  height: 303px;
 }
 
 .focus {
@@ -170,6 +175,15 @@ footer p {
 
 footer {
   background-color: #000;
+}
+
+.form-control {
+  border: 1px solid rgb(31,34,37);
+}
+
+.input-group-text {
+  background-color: #262626;
+  border: 1px solid rgb(31,34,37);
 }
 
 .third-line {
@@ -303,6 +317,11 @@ footer {
   background-color: #e9ecef;
 }
 
+.undergrid {
+  white-space: nowrap !important;
+  padding-left: 0 !important;
+}
+
 iframe {
   border: 0;
 }  
@@ -335,13 +354,8 @@ iframe {
     padding: 0;
   }
 
-  .nav-menu span,
-  .second-line {
+  .nav-menu span {
     display: none;
-  }
-
-  .main-search {
-    background-color: #509bd7;
   }
 
   .four-cards p {
@@ -382,6 +396,19 @@ iframe {
   .item12 {
     height: 48px;
   }
+
+  .undergrid {
+    padding-left: 0 !important;
+  }
+
+  .undergrid a {
+    display: none;
+  }
+
+  .map-title {
+    padding-top: 46px;
+  }
+
 }
 
 /* ====== #list1024px end ======== */
@@ -403,8 +430,13 @@ iframe {
     padding: 8px 3px 9px 48px;
   }
 
+  .second-line {
+    display: none;
+  }
+
   h1 {
     padding-left: 21px;
+    padding-top: 20px;
     white-space: pre-line;
   }
 
@@ -412,13 +444,8 @@ iframe {
     padding: 20px;
   }
 
-  .input-group {
-    flex-direction: column;
-  }
-
   .main-search {
-    background-color: #d35649;
-    margin-top: 8px;
+    background-color: #509bd7;
   }
 
   .four-cards p {
@@ -449,9 +476,10 @@ iframe {
 
   .foot-bottom {
     justify-content: center !important;
+    align-items: center;
   }
 
-  /* ====== #startregionlist320px ====== */
+  /* ====== #startregionlist768px ====== */
 
   .wrapper {
     padding: 10px !important;
@@ -498,8 +526,8 @@ iframe {
       'items10';
   }
 
-  .undergrid a {
-    display: none;
+  .undergrid {
+    padding-top: 22px;
   }
 
   .case-card {
@@ -517,6 +545,19 @@ iframe {
     font-size: x-large;
     font-weight: bold;
     margin: 30px 0;
-    padding-top: 17px;
+    padding-top: 25px;
   }
 }
+
+@media only screen and (max-width: 475px) {
+  .input-group {
+    flex-direction: column;
+  }
+
+  .main-search {
+    background-color: #d35649;
+    margin-top: 8px;
+    width: 100%;
+  }
+}  
+
