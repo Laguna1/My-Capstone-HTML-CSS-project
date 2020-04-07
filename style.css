@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: white;
 }
 
@@ -421,7 +421,7 @@ iframe {
   .map-title {
     padding-top: 46px;
   }
- }
+}
 
 /* ====== #list1024px end ======== */
 
@@ -570,6 +570,14 @@ iframe {
     background-color: #d35649;
     margin-top: 8px;
     width: 100%;
+  }
+
+  .del-320 {
+    display: none;
+  }
+
+  .undergrid i {
+    padding-right: 8px !important;
   }
 }  
 
