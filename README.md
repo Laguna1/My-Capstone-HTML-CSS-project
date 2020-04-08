@@ -28,7 +28,7 @@ The HTML was validated with W3C validation checker and the CSS styling was verif
 
 
 ### Live Demo 
- [Demo-link](https://rawcdn.githack.com/Laguna1/My-Capstone-HTML-CSS-project/fc4eb682ef89544369c5f3cf13e35e7df27ff464/index.html) 
+ [Demo-link](https://rawcdn.githack.com/Laguna1/My-Capstone-HTML-CSS-project/eeec244ea342a258e3b801c26b5064eb829b9210/index.html) 
 ***
 
 ### Author
