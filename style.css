@@ -56,6 +56,7 @@ nav {
 h1 {
   padding-top: 160px;
   padding-bottom: 30px;
+  font-size: 1.8em !important;
 }  
 
 .input-group {
@@ -93,6 +94,10 @@ h1 {
 
 .more {
   font-size: x-small;
+}
+
+.four-cards p {
+  padding: 0 69px;
 }
 
 .choose,
@@ -143,7 +148,7 @@ footer p {
 }
 
 .blue-line-img {
-  width: 300px;
+  width: 350px;
   height: 300px;
   margin: 15px 60px;
   display: flex;
@@ -176,6 +181,10 @@ footer p {
 
 footer {
   background-color: #000;
+}
+
+.first-foot-line {
+  font-size: xx-small;
 }
 
 .form-control {
@@ -352,6 +361,7 @@ select {
 
 .more-info {
   background-color: #e9ecef;
+  max-width: 1290px !important;
 }
 
 .undergrid {
@@ -359,35 +369,21 @@ select {
   padding-left: 0 !important;
 }
 
+.undergrid a {
+  font-size: xx-small;
+}
+
 iframe {
   border: 0;
+  max-width: 1290px !important;
 }
 
 .descr-text {
   color: #666d7a;
+  max-width: 1290px !important;
 }
 
-@media only screen and (max-width: 1440px) {
-  h1 {
-    font-size: 1.8em !important;
-  }
-
-  .four-cards p {
-    padding: 0 69px;
-  }
-
-  .blue-line-img {
-    width: 350px;
-  }
-
-  .first-foot-line {
-    font-size: xx-small;
-  }
-
-  .undergrid a {
-    font-size: xx-small;
-  }
-}
+.
 
 @media only screen and (max-width: 1024px) {
   .nav-menu {
