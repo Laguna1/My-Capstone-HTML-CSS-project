@@ -201,28 +201,40 @@ footer {
 
 /* ====== #list start ====== */
 
+.user-choise h4 {
+  color: #736967;
+}
+
+.wrapper h2 {
+  color: #999795;
+}
 .grid-case {
   background-color: #eee;
 }
 
 .item1 { 
   grid-area: lev;
+  font-size: small;
 }
 
 .item2 { 
-  grid-area: pla; 
+  grid-area: pla;
+  font-size: small; 
 }
 
 .item3 { 
-  grid-area: tra; 
+  grid-area: tra;
+  font-size: small; 
 }
 
 .item4 { 
-  grid-area: dat; 
+  grid-area: dat;
+  font-size: small; 
 }
 
 .item5 { 
-  grid-area: tim; 
+  grid-area: tim;
+  font-size: small; 
 }
 
 .item6 { 
@@ -276,6 +288,16 @@ select {
   top: 2px;
   right: -5px;
   border: aliceblue;
+  padding-right: 5px;
+}
+
+.results-us-choise {
+  position: absolute;
+  color: white;
+  top: 5%;
+  right: 9%;
+  font-weight: bold;
+  font-size: x-large;
 }
 
 .morph {
