@@ -108,6 +108,10 @@ h1 {
   color: #666d7a;
 }
 
+footer p {
+  font-size: x-small;
+}
+
 .four-cards p {
   padding: 0 90px 25px;
   font-size: 18px;
@@ -173,10 +177,6 @@ h1 {
 
 footer {
   background-color: #000;
-}
-
-footer p {
-  font-size: x-small;
 }
 
 .first-foot-line {
