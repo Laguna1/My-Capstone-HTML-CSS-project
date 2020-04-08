@@ -357,7 +357,6 @@ select {
 
 .more-info {
   background-color: #e9ecef;
-  max-width: 1290px !important;
 }
 
 .undergrid {
@@ -376,7 +375,6 @@ iframe {
 
 .descr-text {
   color: #666d7a;
-  max-width: 1290px !important;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -434,6 +432,11 @@ iframe {
 
   .undergrid a {
     display: none;
+  }
+
+  .descr-text,
+  .more-info {
+    max-width: 880px !important;
   }
 
   .map-title {
@@ -566,7 +569,9 @@ iframe {
     padding-top: 22px;
   }
 
-  .case-card {
+  .case-card,
+  .more-info,
+  .descr-text {
     margin: 0;
     padding: 20px !important;
   }
