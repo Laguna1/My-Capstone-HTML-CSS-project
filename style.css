@@ -113,7 +113,8 @@ footer p {
 
 .four-cards p {
   padding: 0 69px 25px;
-  font-size: 15px;
+  font-size: 18px;
+  color: #666d7a;
 }
 
 .stripes {
@@ -208,6 +209,7 @@ footer {
 .wrapper h2 {
   color: #999795;
 }
+
 .grid-case {
   background-color: #eee;
 }
@@ -359,7 +361,11 @@ select {
 
 iframe {
   border: 0;
-}  
+}
+
+.descr-text {
+  color: #666d7a;
+}
 
 @media only screen and (max-width: 1440px) {
   h1 {
@@ -545,6 +551,12 @@ iframe {
     font-weight: bold;
   }
 
+  .grid-case,
+  .service-card {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
   .grid-container-2 {
     grid-template-columns: auto;
     grid-template-areas:
@@ -600,6 +612,12 @@ iframe {
 
   .undergrid i {
     padding-right: 8px !important;
+  }
+
+  .grid-case,
+  .service-card {
+    padding-left: 13px;
+    padding-right: 13px;
   }
 }  
 
