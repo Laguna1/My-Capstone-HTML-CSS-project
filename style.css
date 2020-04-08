@@ -96,10 +96,6 @@ h1 {
   font-size: x-small;
 }
 
-.four-cards p {
-  padding: 0 69px;
-}
-
 .choose,
 .book,
 .take {
@@ -107,16 +103,13 @@ h1 {
   color: #666d7a;
 }
 
-footer p {
-  font-size: x-small;
-}
 .four-cards {
   padding: 0 3%;
   color: #666d7a;
 }
 
 .four-cards p {
-  padding: 0 69px 25px;
+  padding: 0 90px 25px;
   font-size: 18px;
   color: #666d7a;
 }
@@ -180,6 +173,10 @@ footer p {
 
 footer {
   background-color: #000;
+}
+
+footer p {
+  font-size: x-small;
 }
 
 .first-foot-line {
