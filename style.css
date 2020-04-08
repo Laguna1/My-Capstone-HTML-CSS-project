@@ -110,7 +110,6 @@ h1 {
 footer p {
   font-size: x-small;
 }
-
 .four-cards {
   padding: 0 3%;
   color: #666d7a;
@@ -382,8 +381,6 @@ iframe {
   color: #666d7a;
   max-width: 1290px !important;
 }
-
-.
 
 @media only screen and (max-width: 1024px) {
   .nav-menu {
